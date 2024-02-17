@@ -3,12 +3,12 @@
     "path": "~/Documents/GitHub/bioinformatics/.Rhistory",
     "project_path": ".Rhistory",
     "type": "r_history",
-    "hash": "0",
+    "hash": "181158389",
     "contents": "",
-    "dirty": true,
+    "dirty": false,
     "created": 1706828575854.0,
     "source_on_save": false,
-    "relative_order": 3,
+    "relative_order": 8,
     "properties": {
         "source_window_id": "",
         "Source": "Source",
@@ -16,11 +16,11 @@
         "scrollLine": "0"
     },
     "folds": "",
-    "lastKnownWriteTime": 1706827694,
+    "lastKnownWriteTime": 1708008481,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1706828605925,
+    "last_content_update": 1708008481883,
     "read_only": false,
     "read_only_alternatives": []
 }
