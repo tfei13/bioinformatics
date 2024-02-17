@@ -1,0 +1,813 @@
+ID   NU5M_CANLU              Reviewed;         606 AA.
+AC   Q1HK80; Q1HKA6; Q1HKD2; Q1HKE5; Q3L6Y3;
+DT   09-JAN-2007, integrated into UniProtKB/Swiss-Prot.
+DT   13-JUN-2006, sequence version 1.
+DT   13-SEP-2023, entry version 60.
+DE   RecName: Full=NADH-ubiquinone oxidoreductase chain 5;
+DE            EC=7.1.1.2 {ECO:0000250|UniProtKB:P03915};
+DE   AltName: Full=NADH dehydrogenase subunit 5;
+GN   Name=MT-ND5; Synonyms=MTND5, NADH5, ND5;
+OS   Canis lupus (Gray wolf).
+OG   Mitochondrion.
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Laurasiatheria; Carnivora; Caniformia; Canidae; Canis.
+OX   NCBI_TaxID=9612;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RX   PubMed=15964215; DOI=10.1016/j.ympev.2005.04.025;
+RA   Delisle I., Strobeck C.;
+RT   "A phylogeny of the Caniformia (order Carnivora) based on 12 complete
+RT   protein-coding mitochondrial genes.";
+RL   Mol. Phylogenet. Evol. 37:192-201(2005).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA], AND VARIANTS ALA-77; PHE-77; SER-208;
+RP   LEU-209; ILE-371; VAL-375; HIS-442; MET-489 AND MET-495.
+RX   PubMed=16809672; DOI=10.1101/gr.5117706;
+RA   Bjornerfeldt S., Webster M.T., Vila C.;
+RT   "Relaxation of selective constraint on dog mitochondrial DNA following
+RT   domestication.";
+RL   Genome Res. 16:990-994(2006).
+CC   -!- FUNCTION: Core subunit of the mitochondrial membrane respiratory chain
+CC       NADH dehydrogenase (Complex I) which catalyzes electron transfer from
+CC       NADH through the respiratory chain, using ubiquinone as an electron
+CC       acceptor. Essential for the catalytic activity and assembly of complex
+CC       I. {ECO:0000250|UniProtKB:P03915}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a ubiquinone + 5 H(+)(in) + NADH = a ubiquinol + 4 H(+)(out) +
+CC         NAD(+); Xref=Rhea:RHEA:29091, Rhea:RHEA-COMP:9565, Rhea:RHEA-
+CC         COMP:9566, ChEBI:CHEBI:15378, ChEBI:CHEBI:16389, ChEBI:CHEBI:17976,
+CC         ChEBI:CHEBI:57540, ChEBI:CHEBI:57945; EC=7.1.1.2;
+CC         Evidence={ECO:0000250|UniProtKB:P03915};
+CC   -!- SUBUNIT: Core subunit of respiratory chain NADH dehydrogenase (Complex
+CC       I) which is composed of 45 different subunits.
+CC       {ECO:0000250|UniProtKB:P03920}.
+CC   -!- SUBCELLULAR LOCATION: Mitochondrion inner membrane
+CC       {ECO:0000250|UniProtKB:P03920}; Multi-pass membrane protein
+CC       {ECO:0000255}.
+CC   -!- SIMILARITY: Belongs to the complex I subunit 5 family. {ECO:0000305}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=AAU00451.1; Type=Erroneous initiation; Evidence={ECO:0000305};
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AY598505; AAU00451.1; ALT_INIT; Genomic_DNA.
+DR   EMBL; DQ480503; ABE48165.1; -; Genomic_DNA.
+DR   EMBL; DQ480504; ABE48178.1; -; Genomic_DNA.
+DR   EMBL; DQ480505; ABE48191.1; -; Genomic_DNA.
+DR   EMBL; DQ480506; ABE48204.1; -; Genomic_DNA.
+DR   EMBL; DQ480507; ABE48217.1; -; Genomic_DNA.
+DR   EMBL; DQ480508; ABE48230.1; -; Genomic_DNA.
+DR   RefSeq; YP_626738.1; NC_008092.1.
+DR   AlphaFoldDB; Q1HK80; -.
+DR   SMR; Q1HK80; -.
+DR   GeneID; 4097761; -.
+DR   CTD; 4540; -.
+DR   GO; GO:0005743; C:mitochondrial inner membrane; ISS:UniProtKB.
+DR   GO; GO:0070469; C:respirasome; IEA:UniProtKB-KW.
+DR   GO; GO:0008137; F:NADH dehydrogenase (ubiquinone) activity; ISS:UniProtKB.
+DR   GO; GO:0006120; P:mitochondrial electron transport, NADH to ubiquinone; ISS:UniProtKB.
+DR   GO; GO:0032981; P:mitochondrial respiratory chain complex I assembly; ISS:UniProtKB.
+DR   InterPro; IPR010934; NADH_DH_su5_C.
+DR   InterPro; IPR018393; NADHpl_OxRdtase_5_subgr.
+DR   InterPro; IPR001750; ND/Mrp_mem.
+DR   InterPro; IPR003945; NU5C-like.
+DR   InterPro; IPR001516; Proton_antipo_N.
+DR   NCBIfam; TIGR01974; NDH_I_L; 1.
+DR   PANTHER; PTHR42829; NADH-UBIQUINONE OXIDOREDUCTASE CHAIN 5; 1.
+DR   PANTHER; PTHR42829:SF2; NADH-UBIQUINONE OXIDOREDUCTASE CHAIN 5; 1.
+DR   Pfam; PF06455; NADH5_C; 1.
+DR   Pfam; PF00361; Proton_antipo_M; 1.
+DR   Pfam; PF00662; Proton_antipo_N; 1.
+DR   PRINTS; PR01434; NADHDHGNASE5.
+PE   3: Inferred from homology;
+KW   Electron transport; Membrane; Mitochondrion; Mitochondrion inner membrane;
+KW   NAD; Respiratory chain; Translocase; Transmembrane; Transmembrane helix;
+KW   Transport; Ubiquinone.
+FT   CHAIN           1..606
+FT                   /note="NADH-ubiquinone oxidoreductase chain 5"
+FT                   /id="PRO_0000269897"
+FT   TRANSMEM        1..21
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        43..63
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        87..107
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        117..137
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        140..160
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        171..191
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        241..261
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        273..293
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        310..330
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        365..385
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        409..429
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        457..477
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        488..508
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        582..602
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   VARIANT         77
+FT                   /note="S -> A"
+FT                   /evidence="ECO:0000269|PubMed:16809672"
+FT   VARIANT         77
+FT                   /note="S -> F"
+FT                   /evidence="ECO:0000269|PubMed:16809672"
+FT   VARIANT         208
+FT                   /note="N -> S"
+FT                   /evidence="ECO:0000269|PubMed:16809672"
+FT   VARIANT         209
+FT                   /note="F -> L"
+FT                   /evidence="ECO:0000269|PubMed:16809672"
+FT   VARIANT         371
+FT                   /note="T -> I"
+FT                   /evidence="ECO:0000269|PubMed:16809672"
+FT   VARIANT         375
+FT                   /note="I -> V"
+FT                   /evidence="ECO:0000269|PubMed:16809672"
+FT   VARIANT         442
+FT                   /note="L -> H"
+FT                   /evidence="ECO:0000269|PubMed:16809672"
+FT   VARIANT         489
+FT                   /note="T -> M"
+FT                   /evidence="ECO:0000269|PubMed:16809672"
+FT   VARIANT         495
+FT                   /note="I -> M"
+FT                   /evidence="ECO:0000269|PubMed:16809672"
+SQ   SEQUENCE   606 AA;  68402 MW;  7628DD4B5E5C4350 CRC64;
+     MNMFSSCMIT ALVILTLPII MSSTKLYKNK LYPYYVKTAT SYAFMISMIP TMMFIYSGQE
+     TIISNWHWMT IQTMKLSMSF KLDYFSMIFV PVALFVTWSI MEFSMWYMHS DPYINRFFKY
+     LLLFLITMMV LVTANNMFQL FIGWEGVGIM SFLLIGWWYG RTDANTAALQ AVLYNRIGDV
+     GFIMTMAWFL LNLNTWDLQQ IFITTNDNFN LPLLGLLLAA TGKSAQFGLH PWLPSAMEGP
+     TPVSALLHSS TMVVAGVFLL IRFHPLMEHN QTIQTLTLCL GAITTLFTAI CALTQNDIKK
+     IVAFSTSSQL GLMMVTIGIN QPYLAFLHIC THAFFKAMLF MCSGSIIHSL NDEQDIRKMG
+     GLFKVLPFTT TSLIIGSLAL TGMPFLTGFY SKDLIIESAN TSNTNAWALL ITLVATSLTA
+     AYSTRIMFFA LLGQPRFSPM ILINENNPLL INSIKRLLIG SVFAGYIISH SITPTTIPQM
+     TMPHYLKMTA LAVTILGFIL ALELNLTTQG LKFNYPSNYF KFSSLLGYYP TIMHRLTPKT
+     SLTISQKSAS MLLDSIWLEN ILPKSISYFQ MKSSTLISNQ KGLIKLYFLS FMLTMILSLL
+     ILNYHG
+//
+ID   NU5M_CANLF              Reviewed;         606 AA.
+AC   Q9ZZ57; Q66QB1;
+DT   30-MAY-2000, integrated into UniProtKB/Swiss-Prot.
+DT   21-DEC-2004, sequence version 3.
+DT   24-JAN-2024, entry version 110.
+DE   RecName: Full=NADH-ubiquinone oxidoreductase chain 5;
+DE            EC=7.1.1.2 {ECO:0000250|UniProtKB:P03915};
+DE   AltName: Full=NADH dehydrogenase subunit 5;
+GN   Name=MT-ND5; Synonyms=MTND5, NADH5, ND5;
+OS   Canis lupus familiaris (Dog) (Canis familiaris).
+OG   Mitochondrion.
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Laurasiatheria; Carnivora; Caniformia; Canidae; Canis.
+OX   NCBI_TaxID=9615;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=Boxer {ECO:0000312|Proteomes:UP000002254};
+RX   PubMed=9878232; DOI=10.1006/mpev.1998.0513;
+RA   Kim K.S., Lee S.E., Jeong H.W., Ha J.H.;
+RT   "The complete nucleotide sequence of the domestic dog (Canis familiaris)
+RT   mitochondrial genome.";
+RL   Mol. Phylogenet. Evol. 10:210-220(1998).
+RN   [2]
+RP   SEQUENCE REVISION TO 117; 134; 201; 401 AND 405.
+RA   Kim K.S., Lee S.E., Jeong H.W., Jeong S.Y., Sohn H.S., Ha J.H.;
+RL   Submitted (APR-2000) to the EMBL/GenBank/DDBJ databases.
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=Beagle;
+RA   Zhu S., Xu Q., Chang H.;
+RT   "The complete mitochondrial DNA sequence of the Beagle dog (Canis
+RT   familiaris).";
+RL   Submitted (AUG-2004) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Core subunit of the mitochondrial membrane respiratory chain
+CC       NADH dehydrogenase (Complex I) which catalyzes electron transfer from
+CC       NADH through the respiratory chain, using ubiquinone as an electron
+CC       acceptor. Essential for the catalytic activity and assembly of complex
+CC       I. {ECO:0000250|UniProtKB:P03915}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a ubiquinone + 5 H(+)(in) + NADH = a ubiquinol + 4 H(+)(out) +
+CC         NAD(+); Xref=Rhea:RHEA:29091, Rhea:RHEA-COMP:9565, Rhea:RHEA-
+CC         COMP:9566, ChEBI:CHEBI:15378, ChEBI:CHEBI:16389, ChEBI:CHEBI:17976,
+CC         ChEBI:CHEBI:57540, ChEBI:CHEBI:57945; EC=7.1.1.2;
+CC         Evidence={ECO:0000250|UniProtKB:P03915};
+CC   -!- SUBUNIT: Core subunit of respiratory chain NADH dehydrogenase (Complex
+CC       I) which is composed of 45 different subunits.
+CC       {ECO:0000250|UniProtKB:P03920}.
+CC   -!- SUBCELLULAR LOCATION: Mitochondrion inner membrane
+CC       {ECO:0000250|UniProtKB:P03920}; Multi-pass membrane protein
+CC       {ECO:0000255}.
+CC   -!- SIMILARITY: Belongs to the complex I subunit 5 family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; U96639; AAD04773.2; -; Genomic_DNA.
+DR   EMBL; AY729880; AAU12157.1; -; Genomic_DNA.
+DR   PIR; T11503; T11503.
+DR   RefSeq; NP_008481.4; NC_002008.4.
+DR   AlphaFoldDB; Q9ZZ57; -.
+DR   SMR; Q9ZZ57; -.
+DR   STRING; 9615.ENSCAFP00000030319; -.
+DR   PaxDb; 9612-ENSCAFP00000030319; -.
+DR   GeneID; 804484; -.
+DR   KEGG; cfa:804484; -.
+DR   CTD; 4540; -.
+DR   eggNOG; KOG4668; Eukaryota.
+DR   InParanoid; Q9ZZ57; -.
+DR   Proteomes; UP000002254; Mitochondrion.
+DR   Proteomes; UP000002254; Mitochondrion MT.
+DR   Proteomes; UP000694429; Unplaced.
+DR   Proteomes; UP000805418; Mitochondrion MT.
+DR   GO; GO:0005743; C:mitochondrial inner membrane; ISS:UniProtKB.
+DR   GO; GO:0005747; C:mitochondrial respiratory chain complex I; IBA:GO_Central.
+DR   GO; GO:0008137; F:NADH dehydrogenase (ubiquinone) activity; ISS:UniProtKB.
+DR   GO; GO:0003954; F:NADH dehydrogenase activity; IBA:GO_Central.
+DR   GO; GO:0015990; P:electron transport coupled proton transport; IBA:GO_Central.
+DR   GO; GO:0006120; P:mitochondrial electron transport, NADH to ubiquinone; ISS:UniProtKB.
+DR   GO; GO:0032981; P:mitochondrial respiratory chain complex I assembly; ISS:UniProtKB.
+DR   InterPro; IPR010934; NADH_DH_su5_C.
+DR   InterPro; IPR018393; NADHpl_OxRdtase_5_subgr.
+DR   InterPro; IPR001750; ND/Mrp_mem.
+DR   InterPro; IPR003945; NU5C-like.
+DR   InterPro; IPR001516; Proton_antipo_N.
+DR   NCBIfam; TIGR01974; NDH_I_L; 1.
+DR   PANTHER; PTHR42829; NADH-UBIQUINONE OXIDOREDUCTASE CHAIN 5; 1.
+DR   PANTHER; PTHR42829:SF2; NADH-UBIQUINONE OXIDOREDUCTASE CHAIN 5; 1.
+DR   Pfam; PF06455; NADH5_C; 1.
+DR   Pfam; PF00361; Proton_antipo_M; 1.
+DR   Pfam; PF00662; Proton_antipo_N; 1.
+DR   PRINTS; PR01434; NADHDHGNASE5.
+PE   3: Inferred from homology;
+KW   Electron transport; Membrane; Mitochondrion; Mitochondrion inner membrane;
+KW   NAD; Reference proteome; Respiratory chain; Translocase; Transmembrane;
+KW   Transmembrane helix; Transport; Ubiquinone.
+FT   CHAIN           1..606
+FT                   /note="NADH-ubiquinone oxidoreductase chain 5"
+FT                   /id="PRO_0000118073"
+FT   TRANSMEM        1..21
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        43..63
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        87..107
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        117..137
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        140..160
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        171..191
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        201..221
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        241..261
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        273..293
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        310..330
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        365..385
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        409..429
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        457..477
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        488..508
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        582..602
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   CONFLICT        63
+FT                   /note="F -> I (in Ref. 1; AAD04773)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        83
+FT                   /note="N -> D (in Ref. 1; AAD04773)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        300
+FT                   /note="E -> K (in Ref. 1; AAD04773)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        303
+FT                   /note="S -> A (in Ref. 1; AAD04773)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        335
+FT                   /note="C -> F (in Ref. 1; AAD04773)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        495
+FT                   /note="I -> T (in Ref. 1; AAD04773)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        508
+FT                   /note="T -> S (in Ref. 1; AAD04773)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        606
+FT                   /note="E -> G (in Ref. 1; AAD04773)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   606 AA;  68465 MW;  51D20BE07765702A CRC64;
+     MNMFSSCMIT ALVILTLPII MSSTKLYKNK LYPYYVKTAT SYAFMISMIP TMMFIYSGQE
+     TIFSNWHWMT IQTMKLSMSF KLNYFSMIFV PVALFVTWSI MEFSMWYMHS DPYINRFFKY
+     LLLFLITMMV LVTANNMFQL FIGWEGVGIM SFLLIGWWYG RTDANTAALQ AVLYNRIGDV
+     GFIMTMAWFL LNLNTWDLQQ IFITTNDNFN LPLLGLLLAA TGKSAQFGLH PWLPSAMEGP
+     TPVSALLHSS TMVVAGVFLL IRFHPLMEHN QTIQTLTLCL GAITTLFTAI CALTQNDIKE
+     IVSFSTSSQL GLMMVTIGIN QPYLAFLHIC THAFCKAMLF MCSGSVIHSL NDEQDIRKMG
+     GLFKVLPFTT TSLIIGSLAL TGMPFLTGFY SKDLIIESAN TSNTNAWALL ITLVATSLTA
+     AYSTRIMFFA LLGQPRFSPM ILINENNPLL INSIKRLLIG SVFAGYIISH SITPTTIPQM
+     TMPHYLKMTA LAVTILGFIL ALELNLTTQG LKFNYPSNYF KFSSLLGYYP TIMHRLTPKT
+     SLTISQKSAS MLLDSIWLEN ILPKSISYFQ MKSSTLISNQ KGLIKLYFLS FMLTMILSLL
+     ILNYHE
+//
+ID   Q08GU4_VULVU            Unreviewed;       606 AA.
+AC   Q08GU4;
+DT   31-OCT-2006, integrated into UniProtKB/TrEMBL.
+DT   31-OCT-2006, sequence version 1.
+DT   24-JAN-2024, entry version 83.
+DE   RecName: Full=NADH-ubiquinone oxidoreductase chain 5 {ECO:0000256|ARBA:ARBA00021096, ECO:0000256|RuleBase:RU003404};
+DE            EC=7.1.1.2 {ECO:0000256|ARBA:ARBA00012944, ECO:0000256|RuleBase:RU003404};
+GN   Name=NADH5 {ECO:0000313|EMBL:CAJ57154.1};
+GN   Synonyms=ND5 {ECO:0000313|RefSeq:YP_778939.1};
+OS   Vulpes vulpes (Red fox).
+OG   Mitochondrion {ECO:0000313|EMBL:CAJ57154.1,
+OG   ECO:0000313|RefSeq:YP_778939.1}.
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Laurasiatheria; Carnivora; Caniformia; Canidae; Vulpes.
+OX   NCBI_TaxID=9627 {ECO:0000313|EMBL:CAJ57154.1};
+RN   [1] {ECO:0000313|EMBL:CAJ57154.1, ECO:0000313|RefSeq:YP_778939.1}
+RP   NUCLEOTIDE SEQUENCE.
+RX   PubMed=16815048; DOI=10.1016/j.ympev.2006.05.022;
+RA   Arnason U., Gullberg A., Janke A., Kullberg M., Lehman N., Petrov E.A.,
+RA   Vainola R.;
+RT   "Pinniped phylogeny and a new hypothesis for their origin and dispersal.";
+RL   Mol. Phylogenet. Evol. 41:345-354(2006).
+RN   [2] {ECO:0000313|RefSeq:YP_778939.1}
+RP   NUCLEOTIDE SEQUENCE.
+RG   NCBI Genome Project;
+RL   Submitted (OCT-2006) to the EMBL/GenBank/DDBJ databases.
+RN   [3] {ECO:0000313|RefSeq:YP_778939.1}
+RP   IDENTIFICATION.
+RG   RefSeq;
+RL   Submitted (SEP-2023) to UniProtKB.
+CC   -!- FUNCTION: Core subunit of the mitochondrial membrane respiratory chain
+CC       NADH dehydrogenase (Complex I) which catalyzes electron transfer from
+CC       NADH through the respiratory chain, using ubiquinone as an electron
+CC       acceptor. Essential for the catalytic activity and assembly of complex
+CC       I. {ECO:0000256|RuleBase:RU003404}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a ubiquinone + 5 H(+)(in) + NADH = a ubiquinol + 4 H(+)(out) +
+CC         NAD(+); Xref=Rhea:RHEA:29091, Rhea:RHEA-COMP:9565, Rhea:RHEA-
+CC         COMP:9566, ChEBI:CHEBI:15378, ChEBI:CHEBI:16389, ChEBI:CHEBI:17976,
+CC         ChEBI:CHEBI:57540, ChEBI:CHEBI:57945; EC=7.1.1.2;
+CC         Evidence={ECO:0000256|ARBA:ARBA00000766,
+CC         ECO:0000256|RuleBase:RU003404};
+CC   -!- SUBCELLULAR LOCATION: Membrane {ECO:0000256|ARBA:ARBA00004141}; Multi-
+CC       pass membrane protein {ECO:0000256|ARBA:ARBA00004141}. Mitochondrion
+CC       inner membrane {ECO:0000256|ARBA:ARBA00004448}; Multi-pass membrane
+CC       protein {ECO:0000256|ARBA:ARBA00004448}.
+CC   -!- SIMILARITY: Belongs to the complex I subunit 5 family.
+CC       {ECO:0000256|RuleBase:RU003404}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AM181037; CAJ57154.1; -; Genomic_DNA.
+DR   RefSeq; YP_778939.1; NC_008434.1.
+DR   GeneID; 4355762; -.
+DR   KEGG; vvp:4355762; -.
+DR   CTD; 4540; -.
+DR   OrthoDB; 1463698at2759; -.
+DR   Proteomes; UP000286640; Mitochondrion MT.
+DR   GO; GO:0005743; C:mitochondrial inner membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0070469; C:respirasome; IEA:UniProtKB-KW.
+DR   GO; GO:0008137; F:NADH dehydrogenase (ubiquinone) activity; IEA:UniProtKB-EC.
+DR   GO; GO:0042773; P:ATP synthesis coupled electron transport; IEA:InterPro.
+DR   InterPro; IPR010934; NADH_DH_su5_C.
+DR   InterPro; IPR018393; NADHpl_OxRdtase_5_subgr.
+DR   InterPro; IPR001750; ND/Mrp_mem.
+DR   InterPro; IPR003945; NU5C-like.
+DR   InterPro; IPR001516; Proton_antipo_N.
+DR   NCBIfam; TIGR01974; NDH_I_L; 1.
+DR   PANTHER; PTHR42829; NADH-UBIQUINONE OXIDOREDUCTASE CHAIN 5; 1.
+DR   PANTHER; PTHR42829:SF2; NADH-UBIQUINONE OXIDOREDUCTASE CHAIN 5; 1.
+DR   Pfam; PF06455; NADH5_C; 1.
+DR   Pfam; PF00361; Proton_antipo_M; 1.
+DR   Pfam; PF00662; Proton_antipo_N; 1.
+DR   PRINTS; PR01434; NADHDHGNASE5.
+PE   3: Inferred from homology;
+KW   Electron transport {ECO:0000256|ARBA:ARBA00022982};
+KW   Membrane {ECO:0000256|ARBA:ARBA00023136, ECO:0000256|RuleBase:RU003404};
+KW   Mitochondrion {ECO:0000256|ARBA:ARBA00023128,
+KW   ECO:0000256|RuleBase:RU003404};
+KW   Mitochondrion inner membrane {ECO:0000256|ARBA:ARBA00022792};
+KW   NAD {ECO:0000256|RuleBase:RU003404};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000286640};
+KW   Respiratory chain {ECO:0000256|ARBA:ARBA00022660};
+KW   Signal {ECO:0000256|SAM:SignalP};
+KW   Transmembrane {ECO:0000256|ARBA:ARBA00022692,
+KW   ECO:0000256|RuleBase:RU003404};
+KW   Transmembrane helix {ECO:0000256|ARBA:ARBA00022989,
+KW   ECO:0000256|RuleBase:RU003404};
+KW   Transport {ECO:0000256|ARBA:ARBA00022448, ECO:0000256|RuleBase:RU003404};
+KW   Ubiquinone {ECO:0000256|ARBA:ARBA00023075, ECO:0000256|RuleBase:RU003404}.
+FT   SIGNAL          1..23
+FT                   /evidence="ECO:0000256|SAM:SignalP"
+FT   CHAIN           24..606
+FT                   /note="NADH-ubiquinone oxidoreductase chain 5"
+FT                   /evidence="ECO:0000256|SAM:SignalP"
+FT                   /id="PRO_5040716818"
+FT   TRANSMEM        84..105
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|RuleBase:RU003404"
+FT   TRANSMEM        117..134
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|RuleBase:RU003404"
+FT   TRANSMEM        140..160
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|RuleBase:RU003404"
+FT   TRANSMEM        172..191
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|RuleBase:RU003404"
+FT   TRANSMEM        211..233
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|RuleBase:RU003404"
+FT   TRANSMEM        245..263
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|RuleBase:RU003404"
+FT   TRANSMEM        275..294
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|RuleBase:RU003404"
+FT   TRANSMEM        301..319
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|RuleBase:RU003404"
+FT   TRANSMEM        325..350
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|RuleBase:RU003404"
+FT   TRANSMEM        362..386
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|RuleBase:RU003404"
+FT   TRANSMEM        406..428
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|RuleBase:RU003404"
+FT   TRANSMEM        449..468
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|RuleBase:RU003404"
+FT   TRANSMEM        488..506
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|RuleBase:RU003404"
+FT   TRANSMEM        586..605
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|RuleBase:RU003404"
+FT   DOMAIN          68..118
+FT                   /note="NADH-Ubiquinone oxidoreductase (complex I) chain 5
+FT                   N-terminal"
+FT                   /evidence="ECO:0000259|Pfam:PF00662"
+FT   DOMAIN          134..418
+FT                   /note="NADH:quinone oxidoreductase/Mrp antiporter membrane
+FT                   subunit"
+FT                   /evidence="ECO:0000259|Pfam:PF00361"
+FT   DOMAIN          422..600
+FT                   /note="NADH dehydrogenase subunit 5 C-terminal"
+FT                   /evidence="ECO:0000259|Pfam:PF06455"
+SQ   SEQUENCE   606 AA;  68210 MW;  BCD2677874A81B41 CRC64;
+     MNMFASCMIT ALILLTLPII MTSTKLYKDK LYPYYVKTAT SHAFMISMIP AMMFIYSGQE
+     MVVSNWHWMT IQTMKLSMSF KLDYFSMIFV PVALFVTWSI MEFSMWYMHS DPYINRFFKY
+     LLMFLITMMI LVTANNMFQL FIGWEGVGIM SFLLIGWWYG RTDANTAALQ AILYNRIGDV
+     GFIMAMAWFL LHLNAWDLQQ IFMSANDNLN LPLFGLLLAA TGKSAQFGLH PWLPSAMEGP
+     TPVSALLHSS TMVVAGVFLL IRFHPLMEQN PTIQTLTLCL GAITTLFTAI CALTQNDIKK
+     IVAFSTSSQL GLMIVTIGIN QPYLAFLHIC THAFFKAMLF MCSGSIIHSL NDEQDIRKMG
+     GLFKALPFTT TSLIIGSLAL TGMPFLTGFY SKDLIIETAN TSNTNAWALL ITLVATSMTA
+     AYSTRILFFA LLGQPRFTPI ISINENNPYL INSIKRLLLG SVFAGYVISH SITPTTIPQM
+     TMPHHLKMAA LAVTILGFIL ALELNLTMQG LKFNHSSHYF KFSNLLGYYP TIMHRLAPKT
+     SLSMSQKSAS MLLDHIWLES VLPKSIAFFQ MKSSTLVSNQ KGLIKLYFFS FMITMALSLS
+     ILNYHV
+//
+ID   A0A8U0SPQ4_MUSPF        Unreviewed;       609 AA.
+AC   A0A8U0SPQ4;
+DT   12-OCT-2022, integrated into UniProtKB/TrEMBL.
+DT   12-OCT-2022, sequence version 1.
+DT   24-JAN-2024, entry version 8.
+DE   RecName: Full=NADH-ubiquinone oxidoreductase chain 5 {ECO:0000256|ARBA:ARBA00021096, ECO:0000256|RuleBase:RU003404};
+DE            EC=7.1.1.2 {ECO:0000256|ARBA:ARBA00012944, ECO:0000256|RuleBase:RU003404};
+GN   Name=ND5 {ECO:0000313|RefSeq:YP_007625260.1};
+OS   Mustela putorius furo (European domestic ferret) (Mustela furo).
+OG   Mitochondrion {ECO:0000313|RefSeq:YP_007625260.1}.
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Laurasiatheria; Carnivora; Caniformia; Musteloidea; Mustelidae;
+OC   Mustelinae; Mustela.
+OX   NCBI_TaxID=9669 {ECO:0000313|Proteomes:UP000000715, ECO:0000313|RefSeq:YP_007625260.1};
+RN   [1] {ECO:0000313|RefSeq:YP_007625260.1}
+RP   NUCLEOTIDE SEQUENCE.
+RA   Yu L., Peng D., Liu J., Luan P.T., Liang L., Lee H., Lee M., Ryder O.A.,
+RA   Zhang Y.P.;
+RT   "On the phylogeny of Eurasian badgers (Mustelidae: Melinae): analysis of
+RT   seventeen nuclear non-coding loci and mitochondrial complete genomes.";
+RL   Submitted (APR-2010) to the EMBL/GenBank/DDBJ databases.
+RN   [2] {ECO:0000313|RefSeq:YP_007625260.1}
+RP   NUCLEOTIDE SEQUENCE.
+RG   NCBI Genome Project;
+RL   Submitted (MAR-2013) to the EMBL/GenBank/DDBJ databases.
+RN   [3] {ECO:0000313|RefSeq:YP_007625260.1}
+RP   IDENTIFICATION.
+RG   RefSeq;
+RL   Submitted (SEP-2023) to UniProtKB.
+CC   -!- FUNCTION: Core subunit of the mitochondrial membrane respiratory chain
+CC       NADH dehydrogenase (Complex I) which catalyzes electron transfer from
+CC       NADH through the respiratory chain, using ubiquinone as an electron
+CC       acceptor. Essential for the catalytic activity and assembly of complex
+CC       I. {ECO:0000256|RuleBase:RU003404}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a ubiquinone + 5 H(+)(in) + NADH = a ubiquinol + 4 H(+)(out) +
+CC         NAD(+); Xref=Rhea:RHEA:29091, Rhea:RHEA-COMP:9565, Rhea:RHEA-
+CC         COMP:9566, ChEBI:CHEBI:15378, ChEBI:CHEBI:16389, ChEBI:CHEBI:17976,
+CC         ChEBI:CHEBI:57540, ChEBI:CHEBI:57945; EC=7.1.1.2;
+CC         Evidence={ECO:0000256|ARBA:ARBA00000766,
+CC         ECO:0000256|RuleBase:RU003404};
+CC   -!- SUBCELLULAR LOCATION: Membrane {ECO:0000256|ARBA:ARBA00004141}; Multi-
+CC       pass membrane protein {ECO:0000256|ARBA:ARBA00004141}. Mitochondrion
+CC       inner membrane {ECO:0000256|ARBA:ARBA00004448}; Multi-pass membrane
+CC       protein {ECO:0000256|ARBA:ARBA00004448}.
+CC   -!- SIMILARITY: Belongs to the complex I subunit 5 family.
+CC       {ECO:0000256|RuleBase:RU003404}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   RefSeq; YP_007625260.1; NC_020638.1.
+DR   Proteomes; UP000000715; Mitochondrion MT.
+DR   GO; GO:0005743; C:mitochondrial inner membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0070469; C:respirasome; IEA:UniProtKB-KW.
+DR   GO; GO:0008137; F:NADH dehydrogenase (ubiquinone) activity; IEA:InterPro.
+DR   GO; GO:0042773; P:ATP synthesis coupled electron transport; IEA:InterPro.
+DR   InterPro; IPR010934; NADH_DH_su5_C.
+DR   InterPro; IPR018393; NADHpl_OxRdtase_5_subgr.
+DR   InterPro; IPR001750; ND/Mrp_mem.
+DR   InterPro; IPR003945; NU5C-like.
+DR   InterPro; IPR001516; Proton_antipo_N.
+DR   NCBIfam; TIGR01974; NDH_I_L; 1.
+DR   PANTHER; PTHR42829; NADH-UBIQUINONE OXIDOREDUCTASE CHAIN 5; 1.
+DR   PANTHER; PTHR42829:SF2; NADH-UBIQUINONE OXIDOREDUCTASE CHAIN 5; 1.
+DR   Pfam; PF06455; NADH5_C; 1.
+DR   Pfam; PF00361; Proton_antipo_M; 1.
+DR   Pfam; PF00662; Proton_antipo_N; 1.
+DR   PRINTS; PR01434; NADHDHGNASE5.
+PE   3: Inferred from homology;
+KW   Electron transport {ECO:0000256|ARBA:ARBA00022982};
+KW   Membrane {ECO:0000256|ARBA:ARBA00023136, ECO:0000256|RuleBase:RU003404};
+KW   Mitochondrion {ECO:0000256|ARBA:ARBA00023128,
+KW   ECO:0000256|RuleBase:RU003404};
+KW   Mitochondrion inner membrane {ECO:0000256|ARBA:ARBA00022792};
+KW   NAD {ECO:0000256|RuleBase:RU003404};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000000715};
+KW   Respiratory chain {ECO:0000256|ARBA:ARBA00022660};
+KW   Transmembrane {ECO:0000256|ARBA:ARBA00022692,
+KW   ECO:0000256|RuleBase:RU003404};
+KW   Transmembrane helix {ECO:0000256|ARBA:ARBA00022989,
+KW   ECO:0000256|RuleBase:RU003404};
+KW   Transport {ECO:0000256|ARBA:ARBA00022448, ECO:0000256|RuleBase:RU003404};
+KW   Ubiquinone {ECO:0000256|ARBA:ARBA00023075, ECO:0000256|RuleBase:RU003404}.
+FT   TRANSMEM        6..30
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|RuleBase:RU003404"
+FT   TRANSMEM        42..61
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|RuleBase:RU003404"
+FT   TRANSMEM        87..108
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|RuleBase:RU003404"
+FT   TRANSMEM        120..137
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|RuleBase:RU003404"
+FT   TRANSMEM        143..163
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|RuleBase:RU003404"
+FT   TRANSMEM        175..194
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|RuleBase:RU003404"
+FT   TRANSMEM        248..266
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|RuleBase:RU003404"
+FT   TRANSMEM        278..297
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|RuleBase:RU003404"
+FT   TRANSMEM        365..389
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|RuleBase:RU003404"
+FT   TRANSMEM        409..436
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|RuleBase:RU003404"
+FT   TRANSMEM        457..476
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|RuleBase:RU003404"
+FT   TRANSMEM        488..509
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|RuleBase:RU003404"
+FT   TRANSMEM        585..607
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|RuleBase:RU003404"
+FT   DOMAIN          71..121
+FT                   /note="NADH-Ubiquinone oxidoreductase (complex I) chain 5
+FT                   N-terminal"
+FT                   /evidence="ECO:0000259|Pfam:PF00662"
+FT   DOMAIN          137..421
+FT                   /note="NADH:quinone oxidoreductase/Mrp antiporter membrane
+FT                   subunit"
+FT                   /evidence="ECO:0000259|Pfam:PF00361"
+FT   DOMAIN          425..604
+FT                   /note="NADH dehydrogenase subunit 5 C-terminal"
+FT                   /evidence="ECO:0000259|Pfam:PF06455"
+SQ   SEQUENCE   609 AA;  68701 MW;  B62EEF4E8A892943 CRC64;
+     MKVINLLTSS VLVTLLMLTF PIMMTSTTMY ANKSYPQYVK TATSYAFVIS LIPTMMFLHL
+     GQDTMISNWH WITIQTMKLS LSFKLDYFSM IFMPVALFVT WSIMEFSMWY MHSDPNINRF
+     FKYLLLFLIT MMILVTANNM FQLFIGWEGV GIMSFLLIGW WYGRTDANTA ALQAILYNRI
+     GDVGLILAMA WFLMNLNTWD LQQIFMTSNE NLTIPLAGLL LAATGKSAQF GLHPWLPSAM
+     EGPTPVSALL HSSTMVVAGV FLLIRFHPLM EYNKTIQTIT LCLGAITTLF TAICALTQND
+     IKKIVAFSTS SQLGLMMVTI GINQPYLAFL HICTHAFFKA MLFMCSGSII HSLNDEQDIR
+     KMGGLFKALP FTTTSLIVGS LALTGMPFLT GFYSKDLIIE TANTSCTNAW ALLLTLVATS
+     MTAAYSTRIM FFALLGQPRF NPIITINENN PLLINSIKRL LFGSIFAGFL ISHNLTPTTT
+     PQMTMPHYLK MMALAVTILG FILALELNLT MQSLKFKYPT NLFKFSNMLG YFPTIIHRLM
+     PKTNLLMSQK SASTLLDMIW LEKILPKSIS HFQMKSSMII SSQKGLIKLY FMSFMLTLTL
+     SLLTLNFHE
+//
+ID   F4YPU8_NEOVI            Unreviewed;       609 AA.
+AC   F4YPU8;
+DT   28-JUN-2011, integrated into UniProtKB/TrEMBL.
+DT   28-JUN-2011, sequence version 1.
+DT   24-JAN-2024, entry version 55.
+DE   RecName: Full=NADH-ubiquinone oxidoreductase chain 5 {ECO:0000256|ARBA:ARBA00021096, ECO:0000256|RuleBase:RU003404};
+DE            EC=7.1.1.2 {ECO:0000256|ARBA:ARBA00012944, ECO:0000256|RuleBase:RU003404};
+GN   Name=ND5 {ECO:0000313|EMBL:ADG22687.1,
+GN   ECO:0000313|Ensembl:ENSNVIP00000032502.1};
+OS   Neovison vison (American mink) (Mustela vison).
+OG   Mitochondrion {ECO:0000313|EMBL:ADG22687.1,
+OG   ECO:0000313|Ensembl:ENSNVIP00000032502.1}.
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Laurasiatheria; Carnivora; Caniformia; Musteloidea; Mustelidae;
+OC   Mustelinae; Neogale.
+OX   NCBI_TaxID=452646 {ECO:0000313|EMBL:ADG22687.1};
+RN   [1] {ECO:0000313|EMBL:ADG22687.1}
+RP   NUCLEOTIDE SEQUENCE.
+RA   Yu L., Peng D., Liu J., Luan P.T., Liang L., Lee H., Lee M., Ryder O.A.,
+RA   Zhang Y.P.;
+RT   "On the phylogeny of Eurasian badgers (Mustelidae: Melinae): analysis of
+RT   seventeen nuclear non-coding loci and mitochondrial complete genomes.";
+RL   Submitted (APR-2010) to the EMBL/GenBank/DDBJ databases.
+RN   [2] {ECO:0000313|Ensembl:ENSNVIP00000032502.1}
+RP   IDENTIFICATION.
+RG   Ensembl;
+RL   Submitted (SEP-2023) to UniProtKB.
+CC   -!- FUNCTION: Core subunit of the mitochondrial membrane respiratory chain
+CC       NADH dehydrogenase (Complex I) which catalyzes electron transfer from
+CC       NADH through the respiratory chain, using ubiquinone as an electron
+CC       acceptor. Essential for the catalytic activity and assembly of complex
+CC       I. {ECO:0000256|RuleBase:RU003404}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a ubiquinone + 5 H(+)(in) + NADH = a ubiquinol + 4 H(+)(out) +
+CC         NAD(+); Xref=Rhea:RHEA:29091, Rhea:RHEA-COMP:9565, Rhea:RHEA-
+CC         COMP:9566, ChEBI:CHEBI:15378, ChEBI:CHEBI:16389, ChEBI:CHEBI:17976,
+CC         ChEBI:CHEBI:57540, ChEBI:CHEBI:57945; EC=7.1.1.2;
+CC         Evidence={ECO:0000256|ARBA:ARBA00000766,
+CC         ECO:0000256|RuleBase:RU003404};
+CC   -!- SUBCELLULAR LOCATION: Membrane {ECO:0000256|ARBA:ARBA00004141}; Multi-
+CC       pass membrane protein {ECO:0000256|ARBA:ARBA00004141}. Mitochondrion
+CC       inner membrane {ECO:0000256|ARBA:ARBA00004448}; Multi-pass membrane
+CC       protein {ECO:0000256|ARBA:ARBA00004448}.
+CC   -!- SIMILARITY: Belongs to the complex I subunit 5 family.
+CC       {ECO:0000256|RuleBase:RU003404}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; HM106322; ADG22687.1; -; Genomic_DNA.
+DR   RefSeq; YP_007625299.1; NC_020641.1.
+DR   Ensembl; ENSNVIT00000035242.1; ENSNVIP00000032502.1; ENSNVIG00000022916.1.
+DR   GeneID; 14841849; -.
+DR   KEGG; nvs:14841849; -.
+DR   CTD; 4540; -.
+DR   GeneTree; ENSGT00730000111303; -.
+DR   OrthoDB; 1463698at2759; -.
+DR   Proteomes; UP000694425; Unplaced.
+DR   GO; GO:0005747; C:mitochondrial respiratory chain complex I; IEA:Ensembl.
+DR   GO; GO:0008137; F:NADH dehydrogenase (ubiquinone) activity; IEA:UniProtKB-EC.
+DR   GO; GO:0006120; P:mitochondrial electron transport, NADH to ubiquinone; IEA:Ensembl.
+DR   GO; GO:0032981; P:mitochondrial respiratory chain complex I assembly; IEA:Ensembl.
+DR   InterPro; IPR010934; NADH_DH_su5_C.
+DR   InterPro; IPR018393; NADHpl_OxRdtase_5_subgr.
+DR   InterPro; IPR001750; ND/Mrp_mem.
+DR   InterPro; IPR003945; NU5C-like.
+DR   InterPro; IPR001516; Proton_antipo_N.
+DR   NCBIfam; TIGR01974; NDH_I_L; 1.
+DR   PANTHER; PTHR42829; NADH-UBIQUINONE OXIDOREDUCTASE CHAIN 5; 1.
+DR   PANTHER; PTHR42829:SF2; NADH-UBIQUINONE OXIDOREDUCTASE CHAIN 5; 1.
+DR   Pfam; PF06455; NADH5_C; 1.
+DR   Pfam; PF00361; Proton_antipo_M; 1.
+DR   Pfam; PF00662; Proton_antipo_N; 1.
+DR   PRINTS; PR01434; NADHDHGNASE5.
+PE   3: Inferred from homology;
+KW   Electron transport {ECO:0000256|ARBA:ARBA00022982};
+KW   Membrane {ECO:0000256|ARBA:ARBA00023136, ECO:0000256|RuleBase:RU003404};
+KW   Mitochondrion {ECO:0000256|ARBA:ARBA00023128,
+KW   ECO:0000256|RuleBase:RU003404};
+KW   Mitochondrion inner membrane {ECO:0000256|ARBA:ARBA00022792};
+KW   NAD {ECO:0000256|RuleBase:RU003404};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000694425};
+KW   Respiratory chain {ECO:0000256|ARBA:ARBA00022660};
+KW   Transmembrane {ECO:0000256|ARBA:ARBA00022692,
+KW   ECO:0000256|RuleBase:RU003404};
+KW   Transmembrane helix {ECO:0000256|ARBA:ARBA00022989,
+KW   ECO:0000256|RuleBase:RU003404};
+KW   Transport {ECO:0000256|ARBA:ARBA00022448, ECO:0000256|RuleBase:RU003404};
+KW   Ubiquinone {ECO:0000256|ARBA:ARBA00023075, ECO:0000256|RuleBase:RU003404}.
+FT   TRANSMEM        6..26
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|RuleBase:RU003404"
+FT   TRANSMEM        38..59
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|RuleBase:RU003404"
+FT   TRANSMEM        87..108
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|RuleBase:RU003404"
+FT   TRANSMEM        120..137
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|RuleBase:RU003404"
+FT   TRANSMEM        143..163
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|RuleBase:RU003404"
+FT   TRANSMEM        175..194
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|RuleBase:RU003404"
+FT   TRANSMEM        248..266
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|RuleBase:RU003404"
+FT   TRANSMEM        278..297
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|RuleBase:RU003404"
+FT   TRANSMEM        365..389
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|RuleBase:RU003404"
+FT   TRANSMEM        409..436
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|RuleBase:RU003404"
+FT   TRANSMEM        457..476
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|RuleBase:RU003404"
+FT   TRANSMEM        488..509
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|RuleBase:RU003404"
+FT   TRANSMEM        589..607
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|RuleBase:RU003404"
+FT   DOMAIN          71..121
+FT                   /note="NADH-Ubiquinone oxidoreductase (complex I) chain 5
+FT                   N-terminal"
+FT                   /evidence="ECO:0000259|Pfam:PF00662"
+FT   DOMAIN          137..421
+FT                   /note="NADH:quinone oxidoreductase/Mrp antiporter membrane
+FT                   subunit"
+FT                   /evidence="ECO:0000259|Pfam:PF00361"
+FT   DOMAIN          425..603
+FT                   /note="NADH dehydrogenase subunit 5 C-terminal"
+FT                   /evidence="ECO:0000259|Pfam:PF06455"
+SQ   SEQUENCE   609 AA;  69052 MW;  1671DC06836ECB51 CRC64;
+     MKVMNLFTSS MLMTLFMLTI PIMMTNTTMY TNKLYPQYVK TTISYAFIIS LIPTTVFLYS
+     GQDTMISNWH WITIQTMKLS LSFKLDYFSM TFMPVALFVT WSIMEFSMWY MHSDPYINRF
+     FKYLLLFLIT MMILVTANNM FQLFIGWEGV GIMSFLLIGW WYGRTDANTA ALQAILYNRI
+     GDVGFILAMA WFLINLNTWD LQQIFMINHE NLTMPLMGLM LAATGKSAQF GLHPWLPSAM
+     EGPTPVSALL HSSTMVVAGV FLLIRFHPLM EHNKTMQTTT LCLGAITTLF TAICALTQND
+     IKKIVAFSTS SQLGLMIVTI GINQPYLAFL HICTHAFFKA MLFMCSGSII HSLNDEQDIR
+     KMGGLFKALP FTTTSLIVGS LALTGMPFLT GFYSKDLIIE TANTSYTNAW ALLMTLVATS
+     MTAAYSTRIM FFALLGQPRF NPIITINENN PLLINSIKRL LFGSIFAGFL ISNNITPTTT
+     PQMTMPHYLK MTALTVTILG FILALELNLM MQSLKFKYPS NLFKFSNMLG YFPTIIHRLV
+     PMTNLLMSQK SASTLLDTIW LEKIMPKSIS HFQMKSSTII STQKGLIKLY FMSFMLTLTI
+     SLLALNFHE
+//
