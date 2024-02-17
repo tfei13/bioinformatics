@@ -253,10 +253,9 @@ print(names[1])
 
 #Creating FASTA File from aa seq ####
 output_file <- "aa_sequence.fasta"
-writeXStringsSet(aa_seqs, file = output_file,
-              format = "fasta", width = 60)
 
-write.fasta(aa_seqs, "")
+write.fasta(aa_seqs, "french_bulldog_aa", output_file)
 
-
+#5. Read acession numbers into R ####
+acession_numbers <- c("acession")
 
