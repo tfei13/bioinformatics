@@ -76,5 +76,5 @@ writeLines(c(header, sequence), "homo_sapiens_6.fasta")
 # I can't say with confidance what disease this person has, but my educated guess would be Beta thalassemia
 
 #7. What is the 3-dimensional structure of this protein? You can include a screenshot or download of a photo of this structure in your GitHub repository.
-
+ 
 
