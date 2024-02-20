@@ -1,11 +1,10 @@
 #1.Import and align your DNA sequences ####
 #Set the working directory 
-setwd("/Users/kylecameron/Documents/GitHub/bioinformatics")
+setwd("/Users/kylecameron/Documents/GitHub/bioinformatics/Tyffanne midterm")
 
 # Load in packages that I might need
 library(seqinr)
 library(msa)
-library(phangorn)
 library(Biostrings)
 library(UniprotR)
 library(protti)
@@ -35,8 +34,17 @@ print(seqhs)
 
 #4. Find the individual that is the most different from the rest of the individuals in your dataset. Translate that sequence to protein. Write it to a fasta file.####
 #I'm confident from looking at the colorful alignment the most different one is homo_sapiens_6
+#I'm also going to compute a distance matrix to confirm.
 #next step is to translate it into a protein.
 # Define the DNA sequence
+homosapiensall <- readDNAStringSet("midtermfasta")
+allhomosapiensaligned <- msa(homosapiensall)
+allhomosapiensaligned
+homosapiensAl <- msaConvert(allhomosapiensaligned, type = "seqinr::alignment")
+homosapiensAl
+DistanceMatrix <- dist.alignment(homosapiensAl, "identity")
+DistanceMatrix
+
 dna_string <- DNAString("AATCTACTCCCAGGAGCAGGGAGGGCAGGAGCCAGGGCTGGGCATGAAAGTCAGGGCAGAGCCATCTATTGCTTACATTTGCTTCTGACACAACTGTGTTCACTAGCAACCTCAAACAGACACCATGGTGCACCTGACTCCTGTGGAGAAGTCTGCCGTTACTGCCCTGTGGGGCAAGGTGAACGTGGATGAAGTTGGTGGTGAGGCCCTGGGCAGGTTGGTATCAAGGTTACAAGACAGGTTTAAGGAGACCAATAGAAACTGGGCATGTGGAGACAGAGAAGACTCTTGGGTTTCTGATAGGCACTGACTCTCTCTGCCTATTGGTCTATTTTCCCACCCTTAGGCTGCTGGTGGTCTACCCTTGGACCCAGAGGTTCTTTGAGTCCTTTGGGGATCTGTCCACTCCTGATGCTGTTATGGGCAACCCTAAGGTGAAGGCTCATGGCAAGAAAGTGCTCGGTGCCTTTAGTGATGGCCTGGCTCACCTGGACAACCTCAAGGGCACCTTTGCCACACTGAGTGAGCTGCACTGTGACAAGCTGCACGTGGATCCTGAGAACTTCAGGGTGAGTCTATGGGACCCTTGATGTTTTCTTTCCCCTTCTTTTCTATGGTTAAGTTCATGTCATAGGAAGGGG")
 
 #translate in AA sequence
@@ -67,6 +75,6 @@ writeLines(c(header, sequence), "homo_sapiens_6.fasta")
 # Hemoglobin C disease
 # I can't say with confidance what disease this person has, but my educated guess would be Beta thalassemia
 
-#7. What is the 3-dimensional structure of this protein? You can include a screenshot or download of a photo of this structure in your GitHub repository.####
-
+#7. What is the 3-dimensional structure of this protein? You can include a screenshot or download of a photo of this structure in your GitHub repository.
+ 
 
