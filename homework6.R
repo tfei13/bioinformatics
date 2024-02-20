@@ -48,5 +48,7 @@ library(biomaRt)
   plot
   ggsave("plot.png", plot)
   getwd()  
+ 
+  ggsave(plot.png)
   
   
